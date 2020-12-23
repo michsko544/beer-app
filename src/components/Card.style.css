@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card-inner {
+  @apply w-80 h-96 bg-gray-50 bg-opacity-10 px-6 py-8 shadow-2xl mx-4 my-4 rounded-xl;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+h3 {
+  @apply text-3xl text-white font-bold text-center;
+}
+
+h5 {
+  @apply text-lg text-white text-center mt-3;
+}
+
+p {
+  @apply text-sm text-white text-center mt-3;
+}
